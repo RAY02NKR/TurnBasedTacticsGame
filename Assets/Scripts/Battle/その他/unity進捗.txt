@@ -1,0 +1,77 @@
+5/23
+追加したDebugManualPlanEntry,DebugManualPlanningProvider,ManualPlayerPlanningService
+変更したTurnStartStateを理解する
+ログ見て動作が正しいか確認する
+
+5/24
+手入力でどこに移動して誰にどんなスキルを使うかを設定できるようになった
+つぎは同じマスに向かうときの干渉問題のチェックや計画段階での不具合を検証できるようにする
+
+5/25
+BattleGridMovementService.cs
+SimpleApproachPathBuilder.cs
+TurnStartState.cs
+BattleContext.cs
+TurnOrderService.cs
+UnitRuntime.cs
+ResolveTurnState.cs
+TurnEndState.cs
+DebugPlayerPlanningService.cs
+DebugEnemyPlanningService.cs
+
+5/26
+DebugPlayerPlanningService.cs
+DebugEnemyPlanningService.cs
+
+5/28
+スキルの細かい設定作成
+計画作成をちゃんとしてみる
+
+今後の予定
+・メイン3キャラのスキルを完成させる（出血、タレット関連、フリーステップの調整、ノックバック）
+・未設定スキルを埋める
+・計画フェーズUIを作る
+・経路指定とスキル選択をマウス操作化する
+・実行開始までを通す
+・盤面UIとログUIを整える
+
+6/17
+ナイトのノックバックスキル追加
+マエストロのタレット関連追加
+
+予定
+PlanningState
+PlanningSelectionController
+PathDragInputController
+PathPreviewRenderer
+SkillSelectionPanel
+TargetSelectionController
+TargetHighlightRenderer
+PlanningSession
+PlanningExecuteButtonController
+PlannedActionListPanel
+
+6/18
+方向指定スキルの作成
+
+6/22
+カーソルを合わせたときに予定表示
+位置指定スキルのバグ
+
+6/23
+ユニットの持っている状態異常がわかる
+スキル詰める(mage,ナイトのノックバック)
+
+6/25
+予定
+1. 敵が味方を攻撃できないバグ修正
+2. 勝敗表示 / 戦闘終了表示
+3. ターン境目テロップ
+4. ユニットステータス表示
+5. スキル威力調整
+6. 操作説明UI
+7. 見た目の微調整
+
+
+デバッグ
+

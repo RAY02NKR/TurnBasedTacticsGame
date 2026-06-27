@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b5104f1da275c48b9b8c2094a1a5fa, type: 3}
+  m_Name: Ally_Maestro
+  m_EditorClassIdentifier: 
+  unitName: Maestro
+  team: 0
+  maxHP: 60
+  attack: 7
+  speed: 3
+  step: 3
+  resistSlash: -1
+  resistPierce: 0
+  resistBlunt: -2
+  basicAttack: {fileID: 11400000, guid: 726c3af5bd2cf82408856f5d5a6cb91e, type: 2}
+  activeSkills:
+  - {fileID: 11400000, guid: e3ad8fd7f29656c4abe849ca3f168e9e, type: 2}
+  - {fileID: 11400000, guid: 94be1e4f28b85674f87115aba62eec2d, type: 2}
+  - {fileID: 11400000, guid: 45ee899314999404bb1769c2b27d6281, type: 2}

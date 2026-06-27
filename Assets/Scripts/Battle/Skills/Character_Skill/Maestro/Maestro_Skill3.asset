@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c09350dc50eae745b6b29dee677f181, type: 3}
+  m_Name: Maestro_Skill3
+  m_EditorClassIdentifier: 
+  skillName: "\u96FB\u78C1\u7832"
+  SkillPower: 0
+  damageType: 2
+  modifiesStepDuringPlanning: 0
+  planningStepAdd: 0
+  cooldownTurns: 4
+  requiredStatus: {fileID: 11400000, guid: 5ab964c41f0dbe64bac765bb3321744d, type: 2}
+  requiredMinStacks: 1
+  targetMode: 2
+  range: 6
+  effects:
+  - {fileID: 11400000, guid: c30c4157bb8705746ac7ef8b257cdda6, type: 2}
+  - {fileID: 11400000, guid: bccc26a46cf7eff4fb9c295492390c0d, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31bc5cb5e07643d4596356fa86a259d7, type: 3}
+  m_Name: Ice crystallization
+  m_EditorClassIdentifier: 
+  effectName: "\u6C37\u6676\u5316"
+  family: 2
+  stackable: 1
+  keepCurrentVariantWhenApplied: 1
+  maxStacks: 5
+  durationTurns: -1
+  onApplyEffects: []
+  onTurnStartEffects: []
+  onTurnEndEffects:
+  - {fileID: 11400000, guid: b16dded00af238b449d5884e11635371, type: 2}
+  - {fileID: 11400000, guid: ea132cc4a415cfc42b57de55ce2de382, type: 2}
+  onExpireEffects: []
+  onDamagedEffects: []
+  onMovedEffects: []
+  modifiers: []
+  resistanceModifiers:
+  - type: 0
+    add: 2
+  - type: 1
+    add: 2
+  - type: 2
+    add: 2
+  turnEndDamagePerStack: 0
