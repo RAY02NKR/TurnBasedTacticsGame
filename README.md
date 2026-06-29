@@ -13,7 +13,7 @@
 ## 紹介動画・プレイ用ビルド
 
 * 紹介動画,プレイ用Build：`https://123.gigafile.nu/0728-fa36111629646eea947c933752502c6e`
-
+* Github:`https://github.com/RAY02NKR/TurnBasedTacticsGame`
 
 ---
 
